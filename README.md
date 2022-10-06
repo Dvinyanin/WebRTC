@@ -1,13 +1,15 @@
-## Start server
+# WebRTC server
+
+## Installation
 
 ```bash
-cd server
-npm i
-npm start
+$ npm install
 ```
+
+Install and run [signal server](https://github.com/OgS93-Xored/video-conference-server.git)
+
 ## Start web server
 
 ```bash
-npm i
-npm run dev -- --open
+$ npm run dev -- --open
 ```

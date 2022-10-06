@@ -17,9 +17,9 @@
 <div>
 	<div>
 		<!-- svelte-ignore a11y-media-has-caption -->
-		<video bind:this={localVideo} autoplay volume=0 />
+		<video bind:this={localVideo} autoplay volume="0" />
 		<!-- svelte-ignore a11y-media-has-caption -->
 		<video bind:this={remoteVideo} autoplay />
 	</div>
-	<button on:click={data.start}>CLICK</button>
+	<button on:click={data.start}>Connect</button>
 </div>
